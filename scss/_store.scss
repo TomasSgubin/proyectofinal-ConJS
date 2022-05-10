@@ -1,0 +1,50 @@
+.contenedor-store {
+    width: 90% ;
+    max-width: 800px ;
+    margin: auto;
+    padding: 30px ;
+    background: $color-primary;
+    margin-top: 60px ;
+    border-top: 6px none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        .contenedor-store .card img {
+            max-width: 85%;
+            margin: auto;
+            object-fit: cover;
+            padding-top: 20px;  
+        }
+            .contenedor-store .card h4 {
+                font-weight: 600;
+            }
+    
+                .contenedor-store .card p {
+                    padding: 0 1rem;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+    
+                    .contenedor-store .card a {
+                        font-weight: 500;
+                        color: $color-secondary;
+                    }
+}
+
+.card {
+    width: 270px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px $color-secondary;
+    
+    margin: 35px;
+    text-align: center;
+    transition: all 0.25s;
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px wheat;
+        }
+    
+   
+}
+

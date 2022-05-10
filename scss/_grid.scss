@@ -1,0 +1,38 @@
+.grid-conteiner {
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+
+    display: grid;
+    gap: 3px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+}
+
+
+header {
+    grid-area: header;
+    background-color: #8c96a0;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #0e0e0e;
+    color: $color-secondary;
+    font-size: 1,6rem; 
+}
+
+main {
+    grid-area: main;
+    background-color: #121212;
+    font-size: 1,4rem;
+    
+    
+}
+
+footer {
+    grid-area: footer;    
+}

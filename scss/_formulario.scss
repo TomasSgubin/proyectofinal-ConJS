@@ -1,0 +1,42 @@
+form {
+    width: 300px;
+    margin: auto;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 12px;
+        form h2 {
+            color: #000000;
+            text-align: center;
+            margin: 0px;
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+            input, textarea {
+                width: 50%;
+                margin-bottom: 10px;
+                padding: 5px;
+                box-sizing: border-box;
+                font: 1.063rem;
+            }
+                text {
+                    min-height: 50px;
+                    max-height: 100px;
+                    max-width: 50px;
+                }
+                    #button {
+                        background-color: #31384a;
+                        color: #ffffff;
+                        padding: 10px;
+                    }
+                        #button:hover {
+                            cursor: pointer;
+                        }  
+}
+
+
+
+
+
+

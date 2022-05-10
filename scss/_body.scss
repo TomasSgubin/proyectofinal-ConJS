@@ -1,0 +1,8 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: $color-primary;
+    color: #000000; 
+        header, nav, main, footer {
+            border-style: none $color-primary;
+        }
+}
