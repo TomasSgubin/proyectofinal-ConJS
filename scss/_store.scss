@@ -3,7 +3,7 @@
     max-width: 800px ;
     margin: auto;
     padding: 30px ;
-    background: $color-primary;
+    background: map-get($map: $colores, $key: secundario );
     margin-top: 60px ;
     border-top: 6px none;
     display: flex;
@@ -27,7 +27,7 @@
     
                     .contenedor-store .card a {
                         font-weight: 500;
-                        color: $color-secondary;
+                        color: map-get($map: $colores, $key: primario );
                     }
 }
 
@@ -35,7 +35,7 @@
     width: 270px;
     height: 250px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px $color-secondary;
+    box-shadow: 0 2px 2px map-get($map: $colores, $key: primario );
     
     margin: 35px;
     text-align: center;

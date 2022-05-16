@@ -14,11 +14,16 @@
     
 }
 
+
+@mixin size($ancho, $maxancho, $margin, $padding) {
+    width: $ancho;
+    max-width: $maxancho;
+    margin: $margin;
+    padding: $padding;
+}
+
 .contenedor-all {
-    width: 60% ;
-    max-width: 1000px ;
-    margin: auto;
-    padding: 60px ;
+    @include size(60%, 1000px , auto, 60px);
     background: #f3f3f3;
     margin-top: 50px ;
     border-top: 6px none;

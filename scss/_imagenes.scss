@@ -13,6 +13,7 @@
     top: 95%;
     left: 89%;
     .imglogo {
+        @extend .logowhatsapp;
         width: 65px;
         height: auto;
     }

@@ -21,7 +21,7 @@ header {
 nav {
     grid-area: nav;
     background-color: #0e0e0e;
-    color: $color-secondary;
+    color: map-get($map: $colores, $key: primario);
     font-size: 1,6rem; 
 }
 

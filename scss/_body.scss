@@ -1,8 +1,8 @@
 body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: $color-primary;
+    background-color: map-get($map: $colores, $key: primario );
     color: #000000; 
         header, nav, main, footer {
-            border-style: none $color-primary;
+            border-style: none map-get($map: $colores, $key: primario );
         }
 }

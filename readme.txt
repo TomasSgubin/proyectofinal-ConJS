@@ -1,0 +1,6 @@
+Index// "Agrege colores con Maps" "Agrege Keywords" "Cambie de Title" "Agrege desciption"
+Store// "Agrege colores con Maps" "Agrege Keywords" "Cambie de Title" "Agrege desciption"
+Contacto// "Agrege colores con Maps" "Agrege Keywords" "Cambie de Title" "Agrege desciption"
+Imagenes// "Probe usar un extend en el icono de whatsapp"
+Blog// "Agrege un mixin" "Agrege Keywords" "Cambie de Title" "Agrege desciption"
+Nosotros// "Agrege Keywords" "Cambie de Title" "Agrege desciption"

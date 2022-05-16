@@ -18,7 +18,7 @@ header {
 nav {
   grid-area: nav;
   background-color: #0e0e0e;
-  color: white;
+  color: #313D52;
   font-size: 1,6rem; }
 
 main {
@@ -102,7 +102,7 @@ body {
   width: 200px;
   height: auto; }
 
-.logowhatsapp {
+.logowhatsapp, .logowhatsapp .imglogo {
   position: fixed;
   top: 95%;
   left: 89%; }
@@ -127,7 +127,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 30px;
-  background: #313D52;
+  background: white;
   margin-top: 60px;
   border-top: 6px none;
   display: flex;
@@ -146,13 +146,13 @@ body {
     font-weight: 300; }
   .contenedor-store .contenedor-store .card a {
     font-weight: 500;
-    color: white; }
+    color: #313D52; }
 
 .card {
   width: 270px;
   height: 250px;
   border-radius: 8px;
-  box-shadow: 0 2px 2px white;
+  box-shadow: 0 2px 2px #313D52;
   margin: 35px;
   text-align: center;
   transition: all 0.25s; }
@@ -221,7 +221,7 @@ form {
   .imglogo {
     width: 70%;
     height: auto; }
-  .logowhatsapp {
+  .logowhatsapp, .logowhatsapp .imglogo {
     position: fixed;
     top: 92%;
     left: 90%; }
@@ -381,7 +381,7 @@ form {
   .imglogo {
     width: 80%;
     height: auto; }
-  .logowhatsapp {
+  .logowhatsapp, .logowhatsapp .imglogo {
     position: fixed;
     top: 92%;
     left: 95%; }
@@ -426,7 +426,7 @@ form {
     max-width: 100px; }
   #button {
     background-color: #31384a;
-    color: white;
+    color: #313D52;
     padding: 20px; }
   #button:hover {
     cursor: pointer; }
@@ -492,13 +492,13 @@ form {
     width: 330px;
     height: 430px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px brown;
+    box-shadow: 0 2px 2px #ac7a7a;
     margin: 40px;
     text-align: center;
     transition: all 0.25s; }
   .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px brown; }
+    box-shadow: 0 12px 16px #ac7a7a; }
   .contenedor-store .card img {
     max-width: 90%;
     margin: auto;
