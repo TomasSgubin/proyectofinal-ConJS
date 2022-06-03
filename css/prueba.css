@@ -5,7 +5,6 @@
 
 .grid-conteiner {
   border-radius: 4px;
-  padding: 10px;
   text-align: center;
   display: grid;
   gap: 3px;
@@ -17,8 +16,8 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: #0e0e0e;
-  color: #313D52;
+  background-color: #758ea5;
+  color: #000;
   font-size: 1,6rem; }
 
 main {
@@ -27,30 +26,31 @@ main {
   font-size: 1,4rem; }
 
 footer {
-  grid-area: footer; }
+  grid-area: footer;
+  background-color: #758ea5; }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #313D52;
+  font-family: 'Libre Franklin', sans-serif, 'Helvetica Neue';
   color: #000000; }
-  body header, body nav, body main, body footer {
-    border-style: none #313D52; }
 
 .titulo {
-  color: #000000;
-  font: normal;
-  font-size: 2,3rem; }
+  color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 54px;
+  font-weight: 400; }
 
 .logo {
-  width: 60px;
+  width: 80px;
   height: auto;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding-left: 2px;
+  padding: 5px; }
 
 .contenedor-all2 {
   width: 60%;
   max-width: 1000px;
   margin: auto;
-  padding: 60px;
+  padding: 50px;
   background: #f3f3f3;
   margin-top: 50px;
   border-top: 6px none; }
@@ -69,19 +69,22 @@ body {
   border-top: 6px none; }
 
 .videos {
-  width: 300px;
+  width: 150px;
+  height: auto;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px; }
 
 .videos2 {
-  width: 300px;
+  width: 150px;
+  height: auto;
   float: right;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .titulo-section1 {
-  color: #c54e17;
+  color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   font-size: 2rem;
   font: normal;
@@ -89,9 +92,10 @@ body {
   margin-top: 30px; }
 
 .tituloref {
-  color: #c54e17;
+  color: #000;
   font-weight: bolder;
-  font-size: 4m;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
   font: normal; }
 
 .imagenesblog {
@@ -104,20 +108,24 @@ body {
 
 .logowhatsapp, .logowhatsapp .imglogo {
   position: fixed;
-  top: 95%;
-  left: 89%; }
+  top: 94%;
+  left: 88%; }
   .logowhatsapp .imglogo {
-    width: 65px;
+    width: 50px;
     height: auto; }
 
+.imagenredes {
+  width: 30px;
+  height: 30px; }
+
 .imagenezequiel {
-  width: 250px;
+  width: 170px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px; }
 
 .imagenesasha {
-  width: 250px;
+  width: 170px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px; }
@@ -185,7 +193,6 @@ form {
     max-height: 100px;
     max-width: 50px; }
   form #button {
-    background-color: #31384a;
     color: #ffffff;
     padding: 10px; }
   form #button:hover {
@@ -273,13 +280,13 @@ form {
     width: 200px;
     height: 150px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px red;
+    box-shadow: 0 2px 2px #000000;
     margin: 40px;
     text-align: center;
     transition: all 0.25s; }
   .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px red; }
+    box-shadow: 0 12px 16px #000000; }
   .contenedor-store .card img {
     margin: auto;
     padding: 20px; }
@@ -313,13 +320,13 @@ form {
     width: 230px;
     height: 330px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px red;
+    box-shadow: 0 2px 2px #000000;
     margin: 40px;
     text-align: center;
     transition: all 0.25s; }
   .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px red; }
+    box-shadow: 0 12px 16px #000000; }
   .contenedor-store .card img {
     max-width: 90%;
     margin: auto;
@@ -338,8 +345,23 @@ form {
     width: 200px;
     height: auto; }
   .imglogo {
-    width: 60%;
-    height: auto; } }
+    width: 70%;
+    height: auto; }
+  .logowhatsapp, .logowhatsapp .imglogo {
+    top: 92%;
+    left: 93%; }
+  .videos {
+    width: 350px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+  .videos2 {
+    width: 350px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px; } }
 
 @media screen and (min-width: 1440px) {
   * {
@@ -397,6 +419,7 @@ form {
     margin-bottom: 15px; }
   .titulonoticia {
     font-size: 7mm;
+    font-family: 'Bebas Neue', cursive;
     font: normal;
     margin-bottom: 15px;
     color: #000000; }
@@ -432,7 +455,7 @@ form {
     cursor: pointer; }
   .contenedor-all {
     width: 80%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     padding: 60px;
     background: #f3f3f3;
@@ -453,8 +476,9 @@ form {
     margin-right: 20px;
     margin-bottom: 20px; }
   .contenedor-all2 {
-    width: 80%;
-    max-width: 1000px;
+    width: 150%;
+    max-width: 1200px;
+    height: 90%;
     margin: auto;
     padding: 60px;
     background: #f3f3f3;
@@ -462,11 +486,13 @@ form {
     border-top: 6px none; }
   .videos {
     width: 500px;
+    height: 400px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px; }
   .videos2 {
     width: 500px;
+    height: 400px;
     float: right;
     margin-left: 20px;
     margin-bottom: 20px; }
@@ -492,13 +518,13 @@ form {
     width: 330px;
     height: 430px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px #ac7a7a;
+    box-shadow: 0 2px 2px #000000;
     margin: 40px;
     text-align: center;
     transition: all 0.25s; }
   .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px #ac7a7a; }
+    box-shadow: 0 12px 16px #000000; }
   .contenedor-store .card img {
     max-width: 90%;
     margin: auto;

@@ -10,24 +10,29 @@
 
 .logowhatsapp {
     position: fixed;
-    top: 95%;
-    left: 89%;
+    top: 94%;
+    left: 88%;
     .imglogo {
         @extend .logowhatsapp;
-        width: 65px;
+        width: 50px;
         height: auto;
     }
 }
 
+.imagenredes {
+    width: 30px;
+    height: 30px;
+}
+
 .imagenezequiel {
-    width: 250px;
+    width: 170px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px; 
 }
 
 .imagenesasha {
-    width: 250px;
+    width: 170px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px; 

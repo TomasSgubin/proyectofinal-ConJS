@@ -1,8 +1,6 @@
 .grid-conteiner {
     border-radius: 4px;
-    padding: 10px;
     text-align: center;
-
     display: grid;
     gap: 3px;
     grid-template-areas: 
@@ -20,9 +18,10 @@ header {
 
 nav {
     grid-area: nav;
-    background-color: #0e0e0e;
-    color: map-get($map: $colores, $key: primario);
+    background-color: #758ea5;
+    color: map-get($map: $colores, $key: tercero);
     font-size: 1,6rem; 
+    
 }
 
 main {
@@ -34,5 +33,6 @@ main {
 }
 
 footer {
-    grid-area: footer;    
+    grid-area: footer;  
+    background-color: #758ea5;  
 }

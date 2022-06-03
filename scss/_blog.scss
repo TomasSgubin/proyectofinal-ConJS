@@ -2,14 +2,14 @@
     width: 60% ;
     max-width: 1000px ;
     margin: auto;
-    padding: 60px ;
+    padding: 50px ;
     background: #f3f3f3;
     margin-top: 50px ;
     border-top: 6px none;
     .contenedor-p {
         font-size:  18px; 
         font-weight: 500;
-        text-align: justify;
+        text-align:justify;
     }
     
 }
@@ -31,14 +31,16 @@
 }
 
 .videos {
-    width: 300px;
+    width: 150px;
+    height: auto;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .videos2 {
-    width: 300px;
+    width: 150px;
+    height: auto;
     float:right;
     margin-left: 20px;
     margin-bottom: 20px;
