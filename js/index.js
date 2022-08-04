@@ -98,3 +98,13 @@ do {
 
 }
 } while (opcionProducto != 0)
+
+
+const form = document.querySelector("#formulario");
+
+const enviarFormulario = (event) => {
+    event.preventDefault();
+    console.log(event.target.nombre.value, event.target.correo.value, event.target.telefono.value);
+};
+
+form.addEventListener("submit", enviarFormulario);
