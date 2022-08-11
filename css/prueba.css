@@ -8,7 +8,10 @@
   text-align: center;
   display: grid;
   gap: 3px;
-  grid-template-areas: "header" "nav" "main" "footer"; }
+  grid-template-areas: "header"
+ "nav"
+ "main"
+ "footer"; }
 
 header {
   grid-area: header;
@@ -194,13 +197,17 @@ form {
     max-width: 50px; }
   form #button {
     color: #ffffff;
-    padding: 10px; }
+    padding: 10px;
+    margin-bottom: auto;}
   form #button:hover {
     cursor: pointer; }
 
 @media screen and (min-width: 768px) {
   .grid-conteiner {
-    grid-template-areas: "header" "nav" "main" "footer"; }
+    grid-template-areas: "header"
+ "nav"
+ "main"
+ "footer"; }
   .titulo {
     font-size: 3rem; }
   .logo {
@@ -369,7 +376,10 @@ form {
     padding: 0;
     box-sizing: border-box; }
   .grid-conteiner {
-    grid-template-areas: "header header" "nav nav" "main main" "footer footer"; }
+    grid-template-areas: "header header"
+ "nav nav"
+ "main main"
+ "footer footer"; }
   body {
     background: #313D52;
     width: 100%;
